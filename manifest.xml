@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote  name="github-remote-sm-play" fetch="https://github.com/sm8150-playground" />
+
+	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="seventeen" remote="github-remote-sm-play"/>
+	<!--<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="sixt" remote="github-remote-sm-play"/>	
+-->
+	<project path="kernel/xiaomi/vayu" name="kernel_xiaomi_sm8150" revision="sixteen" remote="github-remote-sm-play"/>	
+<!--	<project path="device/xiaomi/sm8150-common" name="device_xiaomi_sm8150-common" revision="lineage-23.0" remote="github-remote-sm-play"/>	
+	--><project path="vendor/xiaomi/vayu" name="vendor_vayu" revision="sixteen" remote="github-remote-sm-play"/>
+		
+<!--	<project path="vendor/xiaomi/sm8150-common" name="vendor_xiaomi_sm8150-common" revision="sixteen" remote="github-remote-sm-play"/>	
+-->
+	
+ 	 <!-- Hardware -->
+ 	<project path="hardware/xiaomi" name="hardware_xiaomi" revision="sixteen" remote="yaap" />
+</manifest>
